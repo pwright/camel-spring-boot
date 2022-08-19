@@ -1,0 +1,344 @@
+activemq:: Send messages to (or consume from) Apache ActiveMQ. This component extends the Camel JMS component.
+ahc:: Call external HTTP services using Async Http Client.
+ahc-ws:: Exchange data with external Websocket servers using Async Http Client.
+ahc-wss:: Exchange data with external Websocket servers using Async Http Client.
+amqp:: Messaging with AMQP protocol using Apache QPid Client.
+arangodb:: Perform operations on ArangoDb when used as a Document Database, or as a Graph Database
+as2:: Transfer data securely and reliably using the AS2 protocol (RFC4130).
+asterisk:: Interact with Asterisk PBX Server.
+atlasmap:: Transforms the message using an AtlasMap transformation.
+atmos:: Integrate with EMC's ViPR object data services using the Atmos Client.
+atmosphere-websocket:: Expose WebSocket endpoints using the Atmosphere framework.
+atom:: Poll Atom RSS feeds.
+avro:: Produce or consume Apache Avro RPC services.
+aws2-athena:: Access AWS Athena service using AWS SDK version 2.x.
+aws2-cw:: Sending metrics to AWS CloudWatch using AWS SDK version 2.x.
+aws2-ddb:: Store and retrieve data from AWS DynamoDB service using AWS SDK version 2.x.
+aws2-ddbstream:: Receive messages from AWS DynamoDB Stream service using AWS SDK version 2.x.
+aws2-ec2:: Manage AWS EC2 instances using AWS SDK version 2.x.
+aws2-ecs:: Manage AWS ECS cluster instances using AWS SDK version 2.x.
+aws2-eks:: Manage AWS EKS cluster instances using AWS SDK version 2.x.
+aws2-eventbridge:: Manage AWS Eventbridge cluster instances using AWS SDK version 2.x.
+aws2-iam:: Manage AWS IAM instances using AWS SDK version 2.x.
+aws2-kinesis-firehose:: Produce data to AWS Kinesis Firehose streams using AWS SDK version 2.x.
+aws2-kinesis:: Consume and produce records from and to AWS Kinesis Streams using AWS SDK version 2.x.
+aws2-kms:: Manage keys stored in AWS KMS instances using AWS SDK version 2.x.
+aws2-lambda:: Manage and invoke AWS Lambda functions using AWS SDK version 2.x.
+aws2-mq:: Manage AWS MQ instances using AWS SDK version 2.x.
+aws2-msk:: Manage AWS MSK instances using AWS SDK version 2.x.
+aws2-s3:: Store and retrieve objects from AWS S3 Storage Service using AWS SDK version 2.x.
+aws2-ses:: Send e-mails through AWS SES service using AWS SDK version 2.x.
+aws2-sns:: Send messages to an AWS Simple Notification Topic using AWS SDK version 2.x.
+aws2-sqs:: Send and receive messages to/from AWS SQS service using AWS SDK version 2.x.
+aws2-sts:: Manage AWS STS cluster instances using AWS SDK version 2.x.
+aws2-translate:: Translate texts using AWS Translate and AWS SDK version 2.x.
+aws-cloudtrail:: Consume events from Amazon Cloudtrail using AWS SDK version 2.x.
+aws-secrets-manager:: Manage AWS Secrets Manager services using AWS SDK version 2.x.
+azure-cosmosdb:: To read and write records to the CosmosDB database on Azure cloud platform.
+azure-eventhubs:: Send and receive events to/from Azure Event Hubs using AMQP protocol.
+azure-key-vault:: Manage secrets and keys in Azure Key Vault Service
+azure-servicebus:: Send and receive messages to/from Azure Event Bus.
+azure-storage-blob:: Store and retrieve blobs from Azure Storage Blob Service.
+azure-storage-datalake:: Sends and receives files to/from Azure DataLake Storage.
+azure-storage-queue:: Stores and retrieves messages to/from Azure Storage Queue.
+bean:: Invoke methods of Java beans stored in Camel registry.
+bean-validator:: Validate the message body using the Java Bean Validation API.
+bonita:: Communicate with a remote Bonita BPM process engine.
+box:: Upload, download and manage files, folders, groups, collaborations, etc. on box.com.
+braintree:: Process payments using Braintree Payments.
+browse:: Inspect the messages received on endpoints supporting BrowsableEndpoint.
+caffeine-cache:: Perform caching operations using Caffeine Cache.
+caffeine-loadcache:: Perform caching operations using Caffeine Cache with an attached CacheLoader.
+chatscript:: Chat with a ChatScript Server.
+chunk:: Transform messages using Chunk templating engine.
+class:: Invoke methods of Java beans specified by class name.
+cmis:: Read and write data from to/from a CMIS compliant content repositories.
+cm-sms:: Send SMS messages via CM SMS Gateway.
+coap:: Send and receive messages to/from COAP capable devices.
+coaps:: Send and receive messages to/from COAP capable devices.
+coaps+tcp:: Send and receive messages to/from COAP capable devices.
+coap+tcp:: Send and receive messages to/from COAP capable devices.
+cometd:: Offers publish/subscribe, peer-to-peer (via a server), and RPC style messaging using the CometD/Bayeux protocol.
+cometds:: Offers publish/subscribe, peer-to-peer (via a server), and RPC style messaging using the CometD/Bayeux protocol.
+consul:: Integrate with Consul service discovery and configuration store.
+controlbus:: Manage and monitor Camel routes.
+corda:: Perform operations against Corda blockchain platform using corda-rpc library.
+couchbase:: Query Couchbase Views with a poll strategy and/or perform various operations against Couchbase databases.
+couchdb:: Consume changesets for inserts, updates and deletes in a CouchDB database, as well as get, save, update and delete documents from a CouchDB database.
+cql:: Integrate with Cassandra 2.0 using the CQL3 API (not the Thrift API). Based on Cassandra Java Driver provided by DataStax.
+cron:: A generic interface for triggering events at times specified through the Unix cron syntax.
+crypto:: Sign and verify exchanges using the Signature Service of the Java Cryptographic Extension (JCE).
+cxf:: Expose SOAP WebServices using Apache CXF or connect to external WebServices using CXF WS client.
+cxfrs:: Expose JAX-RS REST services using Apache CXF or connect to external REST services using CXF REST client.
+dataformat:: Use a Camel Data Format as a regular Camel Component.
+dataset:: Provide data for load and soak testing of your Camel application.
+dataset-test:: Extends the mock component by pulling messages from another endpoint on startup to set the expected message bodies.
+debezium-mongodb:: Capture changes from a MongoDB database.
+debezium-mysql:: Capture changes from a MySQL database.
+debezium-postgres:: Capture changes from a PostgresSQL database.
+debezium-sqlserver:: Capture changes from an SQL Server database.
+digitalocean:: Manage Droplets and resources within the DigitalOcean cloud.
+direct:: Call another endpoint from the same Camel Context synchronously.
+direct-vm:: Call another endpoint from any Camel Context in the same JVM synchronously.
+disruptor:: Provides asynchronous SEDA behavior using LMAX Disruptor.
+disruptor-vm:: Provides asynchronous SEDA behavior using LMAX Disruptor.
+djl:: Infer Deep Learning models from message exchanges data using Deep Java Library (DJL).
+dns:: Perform DNS queries using DNSJava.
+docker:: Manage Docker containers.
+dozer:: Map between Java beans using the Dozer mapping library.
+drill:: Perform queries against an Apache Drill cluster.
+dropbox:: Upload, download and manage files, folders, groups, collaborations, etc on Dropbox.
+dynamic-router:: The Dynamic Router component routes exchanges to recipients, and the recipients (and their rules) may change at runtime.
+ehcache:: Perform caching operations using Ehcache.
+elasticsearch-rest:: Send requests to ElasticSearch via REST API
+exec:: Execute commands on the underlying operating system.
+facebook:: Send requests to Facebook APIs supported by Facebook4J.
+fhir:: Exchange information in the healthcare domain using the FHIR (Fast Healthcare Interoperability Resources) standard.
+file:: Read and write files.
+file-watch:: Get notified about file events in a directory using java.nio.file.WatchService.
+flatpack:: Parse fixed width and delimited files using the FlatPack library.
+flink:: Send DataSet jobs to an Apache Flink cluster.
+fop:: Render messages into PDF and other output formats supported by Apache FOP.
+freemarker:: Transform messages using FreeMarker templates.
+ftp:: Upload and download files to/from FTP servers.
+ftps:: Upload and download files to/from FTP servers supporting the FTPS protocol.
+geocoder:: Find geocodes (latitude and longitude) for a given address or the other way round.
+github:: Interact with the GitHub API.
+git:: Perform operations on git repositories.
+google-bigquery:: Google BigQuery data warehouse for analytics.
+google-bigquery-sql:: Access Google Cloud BigQuery service using SQL queries.
+google-calendar:: Perform various operations on a Google Calendar.
+google-calendar-stream:: Poll for changes in a Google Calendar.
+google-drive:: Manage files in Google Drive.
+google-functions:: Manage and invoke Google Cloud Functions
+google-mail:: Manage messages in Google Mail.
+google-mail-stream:: Poll for incoming messages in Google Mail.
+google-pubsub:: Send and receive messages to/from Google Cloud Platform PubSub Service.
+google-secret-manager:: Manage Google Secret Manager Secrets
+google-sheets:: Manage spreadsheets in Google Sheets.
+google-sheets-stream:: Poll for changes in Google Sheets.
+google-storage:: Store and retrieve objects from Google Cloud Storage Service using the google-cloud-storage library.
+gora:: Access NoSQL databases using the Apache Gora framework.
+grape:: Fetch, load and manage additional jars dynamically after Camel Context was started.
+graphql:: Send GraphQL queries and mutations to external systems.
+grpc:: Expose gRPC endpoints and access external gRPC endpoints.
+guava-eventbus:: Send and receive messages to/from Guava EventBus.
+hashicorp-vault:: Manage secrets in Hashicorp Vault Service
+hazelcast-atomicvalue:: Increment, decrement, set, etc. Hazelcast atomic number (a grid wide number).
+hazelcast-instance:: Consume join/leave events of a cache instance in a Hazelcast cluster.
+hazelcast-list:: Perform operations on Hazelcast distributed list.
+hazelcast-map:: Perform operations on Hazelcast distributed map.
+hazelcast-multimap:: Perform operations on Hazelcast distributed multimap.
+hazelcast-queue:: Perform operations on Hazelcast distributed queue.
+hazelcast-replicatedmap:: Perform operations on Hazelcast replicated map.
+hazelcast-ringbuffer:: Perform operations on Hazelcast distributed ringbuffer.
+hazelcast-seda:: Asynchronously send/receive Exchanges between Camel routes running on potentially distinct JVMs/hosts backed by Hazelcast BlockingQueue.
+hazelcast-set:: Perform operations on Hazelcast distributed set.
+hazelcast-topic:: Send and receive messages to/from Hazelcast distributed topic.
+hbase:: Reading and write from/to an HBase store (Hadoop database).
+hdfs:: Read and write from/to an HDFS filesystem using Hadoop 2.x.
+http:: Send requests to external HTTP servers using Apache HTTP Client 4.x.
+https:: Send requests to external HTTP servers using Apache HTTP Client 4.x.
+hwcloud-dms:: To integrate with a fully managed, high-performance message queuing service on Huawei Cloud
+hwcloud-frs:: Face Recognition Service (FRS) is an intelligent service that uses computers to process, analyze, and understand facial images based on human facial features.
+hwcloud-functiongraph:: To call serverless functions on Huawei Cloud
+hwcloud-iam:: To securely manage users on Huawei Cloud
+hwcloud-imagerecognition:: To identify objects, scenes, and concepts in images on Huawei Cloud
+hwcloud-obs:: To provide stable, secure, efficient, and easy-to-use cloud storage service on Huawei Cloud
+hwcloud-smn:: To broadcast messages and connect cloud services through notifications on Huawei Cloud
+hyperledger-aries:: Camel support for Hyperledger Aries
+iec60870-client:: IEC 60870 supervisory control and data acquisition (SCADA) client using NeoSCADA implementation.
+iec60870-server:: IEC 60870 supervisory control and data acquisition (SCADA) server using NeoSCADA implementation.
+ignite-cache:: Perform cache operations on an Ignite cache or consume changes from a continuous query.
+ignite-compute:: Run compute operations on an Ignite cluster.
+ignite-events:: Receive events from an Ignite cluster by creating a local event listener.
+ignite-idgen:: Interact with Ignite Atomic Sequences and ID Generators .
+ignite-messaging:: Send and receive messages from an Ignite topic.
+ignite-queue:: Interact with Ignite Queue data structures.
+ignite-set:: Interact with Ignite Set data structures.
+imap:: Send and receive emails using imap, pop3 and smtp protocols.
+imaps:: Send and receive emails using imap, pop3 and smtp protocols.
+infinispan-embedded:: Read and write from/to Infinispan distributed key/value store and data grid.
+infinispan:: Read and write from/to Infinispan distributed key/value store and data grid.
+influxdb:: Interact with InfluxDB, a time series database.
+iota:: Manage financial transactions using IOTA distributed ledger.
+ipfs:: Access the Interplanetary File System (IPFS).
+irc:: Send and receive messages to/from and IRC chat.
+ironmq:: Send and receive messages to/from IronMQ an elastic and durable hosted message queue as a service.
+jbpm:: Interact with jBPM workflow engine over REST.
+jcache:: Perform caching operations against JSR107/JCache.
+jclouds:: Interact with jclouds compute and blobstore service.
+jcr:: Read and write nodes to/from a JCR compliant content repository.
+jdbc:: Access databases through SQL and JDBC.
+jetty:: Expose HTTP endpoints using Jetty 9.
+jgroups:: Exchange messages with JGroups clusters.
+jgroups-raft:: Exchange messages with JGroups-raft clusters.
+jira:: Interact with JIRA issue tracker.
+jms:: Sent and receive messages to/from a JMS Queue or Topic.
+jmx:: Receive JMX notifications.
+jolt:: JSON to JSON transformation using JOLT.
+jooq:: Store and retrieve Java objects from an SQL database using JOOQ.
+jpa:: Store and retrieve Java objects from databases using Java Persistence API (JPA).
+jslt:: Query or transform JSON payloads using an JSLT.
+jsonata:: Transforms JSON payload using JSONata transformation.
+json-patch:: Transforms JSON using JSON patch (RFC 6902).
+json-validator:: Validate JSON payloads using NetworkNT JSON Schema.
+jt400:: Exchanges messages with an IBM i system using data queues, message queues, or program call. IBM i is the replacement for AS/400 and iSeries servers.
+kafka:: Sent and receive messages to/from an Apache Kafka broker.
+kamelet:: To call Kamelets
+knative:: Send and receive events from Knative.
+kubernetes-config-maps:: Perform operations on Kubernetes ConfigMaps and get notified on ConfigMaps changes.
+kubernetes-custom-resources:: Perform operations on Kubernetes Custom Resources and get notified on Deployment changes.
+kubernetes-deployments:: Perform operations on Kubernetes Deployments and get notified on Deployment changes.
+kubernetes-hpa:: Perform operations on Kubernetes Horizontal Pod Autoscalers (HPA) and get notified on HPA changes.
+kubernetes-job:: Perform operations on Kubernetes Jobs.
+kubernetes-namespaces:: Perform operations on Kubernetes Namespaces and get notified on Namespace changes.
+kubernetes-nodes:: Perform operations on Kubernetes Nodes and get notified on Node changes.
+kubernetes-persistent-volumes-claims:: Perform operations on Kubernetes Persistent Volumes Claims and get notified on Persistent Volumes Claim changes.
+kubernetes-persistent-volumes:: Perform operations on Kubernetes Persistent Volumes and get notified on Persistent Volume changes.
+kubernetes-pods:: Perform operations on Kubernetes Pods and get notified on Pod changes.
+kubernetes-replication-controllers:: Perform operations on Kubernetes Replication Controllers and get notified on Replication Controllers changes.
+kubernetes-resources-quota:: Perform operations on Kubernetes Resources Quotas.
+kubernetes-secrets:: Perform operations on Kubernetes Secrets.
+kubernetes-service-accounts:: Perform operations on Kubernetes Service Accounts.
+kubernetes-services:: Perform operations on Kubernetes Services and get notified on Service changes.
+kudu:: Interact with Apache Kudu, a free and open source column-oriented data store of the Apache Hadoop ecosystem.
+language:: Execute scripts in any of the languages supported by Camel.
+ldap:: Perform searches on LDAP servers.
+ldif:: Perform updates on an LDAP server from an LDIF body content.
+log:: Log messages to the underlying logging mechanism.
+lpr:: Send print jobs to printers.
+lucene:: Perform inserts or queries against Apache Lucene databases.
+lumberjack:: Receive logs messages using the Lumberjack protocol.
+master:: Have only a single consumer in a cluster consuming from a given endpoint; with automatic failover if the JVM dies.
+metrics:: Collect various metrics directly from Camel routes using the DropWizard metrics library.
+micrometer:: Collect various metrics directly from Camel routes using the Micrometer library.
+milo-browse:: Connect to OPC UA servers using the binary protocol for browsing the node tree.
+milo-client:: Connect to OPC UA servers using the binary protocol for acquiring telemetry data.
+milo-server:: Make telemetry data available as an OPC UA server.
+mina:: Socket level networking using TCP or UDP with Apache Mina 2.x.
+minio:: Store and retrieve objects from Minio Storage Service using Minio SDK.
+mllp:: Communicate with external systems using the MLLP protocol.
+mock:: Test routes and mediation rules using mocks.
+mongodb-gridfs:: Interact with MongoDB GridFS.
+mongodb:: Perform operations on MongoDB documents and collections.
+mustache:: Transform messages using a Mustache template.
+mvel:: Transform messages using an MVEL template.
+mybatis-bean:: Perform queries, inserts, updates or deletes in a relational database using MyBatis.
+mybatis:: Performs a query, poll, insert, update or delete in a relational database using MyBatis.
+nats:: Send and receive messages from NATS messaging system.
+netty-http:: Netty HTTP server and client using the Netty 4.x.
+netty:: Socket level networking using TCP or UDP with Netty 4.x.
+nitrite:: Access Nitrite databases.
+oaipmh:: Harvest metadata using OAI-PMH protocol
+olingo2:: Communicate with OData 2.0 services using Apache Olingo.
+olingo4:: Communicate with OData 4.0 services using Apache Olingo OData API.
+openshift-build-configs:: Perform operations on OpenShift Build Configs.
+openshift-builds:: Perform operations on OpenShift Builds.
+openshift-deploymentconfigs:: Perform operations on Openshift Deployment Configs and get notified on Deployment Config changes.
+openstack-cinder:: Access data in OpenStack Cinder block storage.
+openstack-glance:: Manage VM images and metadata definitions in OpenStack Glance.
+openstack-keystone:: Access OpenStack Keystone for API client authentication, service discovery and distributed multi-tenant authorization.
+openstack-neutron:: Access OpenStack Neutron for network services.
+openstack-nova:: Access OpenStack to manage compute resources.
+openstack-swift:: Access OpenStack Swift object/blob store.
+optaplanner:: Solve planning problems with OptaPlanner.
+paho:: Communicate with MQTT message brokers using Eclipse Paho MQTT Client.
+paho-mqtt5:: Communicate with MQTT message brokers using Eclipse Paho MQTT v5 Client.
+pdf:: Create, modify or extract content from PDF documents.
+pgevent:: Send and receive PostgreSQL events via LISTEN and NOTIFY commands.
+pg-replication-slot:: Poll for PostgreSQL Write-Ahead Log (WAL) records using Streaming Replication Slots.
+platform-http:: Expose HTTP endpoints using the HTTP server available in the current platform.
+pop3:: Send and receive emails using imap, pop3 and smtp protocols.
+pop3s:: Send and receive emails using imap, pop3 and smtp protocols.
+pubnub:: Send and receive messages to/from PubNub data stream network for connected devices.
+pulsar:: Send and receive messages from/to Apache Pulsar messaging system.
+quartz:: Schedule sending of messages using the Quartz 2.x scheduler.
+quickfix:: Open a Financial Interchange (FIX) session using an embedded QuickFix/J engine.
+rabbitmq:: Send and receive messages from RabbitMQ instances.
+reactive-streams:: Exchange messages with reactive stream processing libraries compatible with the reactive streams standard.
+ref:: Route messages to an endpoint looked up dynamically by name in the Camel Registry.
+rest-api:: Expose OpenAPI Specification of the REST services defined using Camel REST DSL.
+resteasy:: Expose REST endpoints and access external REST servers.
+rest:: Expose REST services or call external REST services.
+rest-openapi:: Configure REST producers based on an OpenAPI specification document delegating to a component implementing the RestProducerFactory interface.
+rest-swagger:: Configure REST producers based on a Swagger (OpenAPI) specification document delegating to a component implementing the RestProducerFactory interface.
+robotframework:: Pass camel exchanges to acceptence test written in Robot DSL.
+rss:: Poll RSS feeds.
+saga:: Execute custom actions within a route using the Saga EIP.
+salesforce:: Communicate with Salesforce using Java DTOs.
+sap-netweaver:: Send requests to SAP NetWeaver Gateway using HTTP.
+scheduler:: Generate messages in specified intervals using java.util.concurrent.ScheduledExecutorService.
+schematron:: Validate XML payload using the Schematron Library.
+scp:: Copy files to/from remote hosts using the secure copy protocol (SCP).
+seda:: Asynchronously call another endpoint from any Camel Context in the same JVM.
+service:: Register a Camel endpoint to a Service Registry (such as Consul, Etcd) and delegate to it.
+servicenow:: Interact with ServiceNow via its REST API.
+servlet:: Serve HTTP requests by a Servlet.
+sftp:: Upload and download files to/from SFTP servers.
+sjms2:: Send and receive messages to/from a JMS Queue or Topic using plain JMS 2.x API.
+sjms:: Send and receive messages to/from a JMS Queue or Topic using plain JMS 1.x API.
+slack:: Send and receive messages to/from Slack.
+smpp:: Send and receive SMS messages using a SMSC (Short Message Service Center).
+smpps:: Send and receive SMS messages using a SMSC (Short Message Service Center).
+smtp:: Send and receive emails using imap, pop3 and smtp protocols.
+smtps:: Send and receive emails using imap, pop3 and smtp protocols.
+snmp:: Receive traps and poll SNMP (Simple Network Management Protocol) capable devices.
+solrCloud:: Perform operations against Apache Lucene Solr.
+solr:: Perform operations against Apache Lucene Solr.
+solrs:: Perform operations against Apache Lucene Solr.
+spark:: Send RDD or DataFrame jobs to Apache Spark clusters.
+splunk-hec:: The splunk component allows to publish events in Splunk using the HTTP Event Collector.
+splunk:: Publish or search for events in Splunk.
+spring-batch:: Send messages to Spring Batch for further processing.
+spring-event:: Listen for Spring Application Events.
+spring-integration:: Bridge Camel with Spring Integration.
+spring-jdbc:: Access databases through SQL and JDBC with Spring Transaction support.
+spring-ldap:: Perform searches in LDAP servers using filters as the message payload.
+spring-rabbitmq:: Send and receive messages from RabbitMQ using Spring RabbitMQ client.
+spring-redis:: Send and receive messages from Redis.
+spring-ws:: Access external web services as a client or expose your own web services.
+sql:: Perform SQL queries using Spring JDBC.
+sql-stored:: Perform SQL queries as a JDBC Stored Procedures using Spring JDBC.
+ssh:: Execute commands on remote hosts using SSH.
+stax:: Process XML payloads by a SAX ContentHandler.
+stitch:: Stitch is a cloud ETL service that integrates various data sources into a central data warehouse through various integrations.
+stomp:: Send and rececive messages to/from STOMP (Simple Text Oriented Messaging Protocol) compliant message brokers.
+stream:: Read from system-in and write to system-out and system-err streams.
+string-template:: Transform messages using StringTemplate engine.
+stub:: Stub out any physical endpoints while in development or testing.
+telegram:: Send and receive messages acting as a Telegram Bot Telegram Bot API.
+thrift:: Call and expose remote procedures (RPC) with Apache Thrift data format and serialization mechanism.
+tika:: Parse documents and extract metadata and text using Apache Tika.
+timer:: Generate messages in specified intervals using java.util.Timer.
+twilio:: Interact with Twilio REST APIs using Twilio Java SDK.
+twitter-directmessage:: Send and receive Twitter direct messages.
+twitter-search:: Access Twitter Search.
+twitter-timeline:: Send tweets and receive tweets from user's timeline.
+undertow:: Expose HTTP and WebSocket endpoints and access external HTTP/WebSocket servers.
+validator:: Validate the payload using XML Schema and JAXP Validation.
+velocity:: Transform messages using a Velocity template.
+vertx-http:: Send requests to external HTTP servers using Vert.x
+vertx:: Send and receive messages to/from Vert.x Event Bus.
+vertx-kafka:: Sent and receive messages to/from an Apache Kafka broker using vert.x Kafka client
+vertx-websocket:: Expose WebSocket endpoints and connect to remote WebSocket servers using Vert.x
+vm:: Call another endpoint in the same CamelContext asynchronously.
+weather:: Poll the weather information from Open Weather Map.
+web3j:: Interact with Ethereum nodes using web3j client API.
+webhook:: Expose webhook endpoints to receive push notifications for other Camel components.
+websocket:: Expose websocket endpoints using Jetty.
+websocket-jsr356:: Expose websocket endpoints using JSR356.
+weka:: Perform machine learning tasks using Weka.
+wordpress:: Manage posts and users using Wordpress API.
+workday:: Detect and parse documents using Workday.
+xchange:: Access market data and trade on Bitcoin and Altcoin exchanges.
+xj:: Transform JSON and XML message using a XSLT.
+xmlsecurity-sign:: Sign XML payloads using the XML signature specification.
+xmlsecurity-verify:: Verify XML payloads using the XML signature specification.
+xmpp:: Send and receive messages to/from an XMPP chat server.
+xquery:: Query and/or transform XML payloads using XQuery and Saxon.
+xslt:: Transforms XML payload using an XSLT template.
+xslt-saxon:: Transform XML payloads using an XSLT template using Saxon.
+zendesk:: Manage Zendesk tickets, users, organizations, etc.
+zookeeper:: Manage ZooKeeper clusters.
+zookeeper-master:: Have only a single consumer in a cluster consuming from a given endpoint; with automatic failover if the JVM dies.

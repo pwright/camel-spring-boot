@@ -1,0 +1,344 @@
+activemq| Send messages to (or consume from) Apache ActiveMQ. This component extends the Camel JMS component.| camel-activemq-starter
+ahc| Call external HTTP services using Async Http Client.| camel-ahc-starter
+ahc-ws| Exchange data with external Websocket servers using Async Http Client.| camel-ahc-ws-starter
+ahc-wss| Exchange data with external Websocket servers using Async Http Client.| camel-ahc-ws-starter
+amqp| Messaging with AMQP protocol using Apache QPid Client.| camel-amqp-starter
+arangodb| Perform operations on ArangoDb when used as a Document Database, or as a Graph Database| camel-arangodb-starter
+as2| Transfer data securely and reliably using the AS2 protocol (RFC4130).| camel-as2-starter
+asterisk| Interact with Asterisk PBX Server.| camel-asterisk-starter
+atlasmap| Transforms the message using an AtlasMap transformation.| camel-atlasmap-starter
+atmos| Integrate with EMC's ViPR object data services using the Atmos Client.| camel-atmos-starter
+atmosphere-websocket| Expose WebSocket endpoints using the Atmosphere framework.| camel-atmosphere-websocket-starter
+atom| Poll Atom RSS feeds.| camel-atom-starter
+avro| Produce or consume Apache Avro RPC services.| camel-avro-rpc-starter
+aws2-athena| Access AWS Athena service using AWS SDK version 2.x.| camel-aws2-athena-starter
+aws2-cw| Sending metrics to AWS CloudWatch using AWS SDK version 2.x.| camel-aws2-cw-starter
+aws2-ddb| Store and retrieve data from AWS DynamoDB service using AWS SDK version 2.x.| camel-aws2-ddb-starter
+aws2-ddbstream| Receive messages from AWS DynamoDB Stream service using AWS SDK version 2.x.| camel-aws2-ddb-starter
+aws2-ec2| Manage AWS EC2 instances using AWS SDK version 2.x.| camel-aws2-ec2-starter
+aws2-ecs| Manage AWS ECS cluster instances using AWS SDK version 2.x.| camel-aws2-ecs-starter
+aws2-eks| Manage AWS EKS cluster instances using AWS SDK version 2.x.| camel-aws2-eks-starter
+aws2-eventbridge| Manage AWS Eventbridge cluster instances using AWS SDK version 2.x.| camel-aws2-eventbridge-starter
+aws2-iam| Manage AWS IAM instances using AWS SDK version 2.x.| camel-aws2-iam-starter
+aws2-kinesis-firehose| Produce data to AWS Kinesis Firehose streams using AWS SDK version 2.x.| camel-aws2-kinesis-starter
+aws2-kinesis| Consume and produce records from and to AWS Kinesis Streams using AWS SDK version 2.x.| camel-aws2-kinesis-starter
+aws2-kms| Manage keys stored in AWS KMS instances using AWS SDK version 2.x.| camel-aws2-kms-starter
+aws2-lambda| Manage and invoke AWS Lambda functions using AWS SDK version 2.x.| camel-aws2-lambda-starter
+aws2-mq| Manage AWS MQ instances using AWS SDK version 2.x.| camel-aws2-mq-starter
+aws2-msk| Manage AWS MSK instances using AWS SDK version 2.x.| camel-aws2-msk-starter
+aws2-s3| Store and retrieve objects from AWS S3 Storage Service using AWS SDK version 2.x.| camel-aws2-s3-starter
+aws2-ses| Send e-mails through AWS SES service using AWS SDK version 2.x.| camel-aws2-ses-starter
+aws2-sns| Send messages to an AWS Simple Notification Topic using AWS SDK version 2.x.| camel-aws2-sns-starter
+aws2-sqs| Send and receive messages to/from AWS SQS service using AWS SDK version 2.x.| camel-aws2-sqs-starter
+aws2-sts| Manage AWS STS cluster instances using AWS SDK version 2.x.| camel-aws2-sts-starter
+aws2-translate| Translate texts using AWS Translate and AWS SDK version 2.x.| camel-aws2-translate-starter
+aws-cloudtrail| Consume events from Amazon Cloudtrail using AWS SDK version 2.x.| camel-aws-cloudtrail-starter
+aws-secrets-manager| Manage AWS Secrets Manager services using AWS SDK version 2.x.| camel-aws-secrets-manager-starter
+azure-cosmosdb| To read and write records to the CosmosDB database on Azure cloud platform.| camel-azure-cosmosdb-starter
+azure-eventhubs| Send and receive events to/from Azure Event Hubs using AMQP protocol.| camel-azure-eventhubs-starter
+azure-key-vault| Manage secrets and keys in Azure Key Vault Service| camel-azure-key-vault-starter
+azure-servicebus| Send and receive messages to/from Azure Event Bus.| camel-azure-servicebus-starter
+azure-storage-blob| Store and retrieve blobs from Azure Storage Blob Service.| camel-azure-storage-blob-starter
+azure-storage-datalake| Sends and receives files to/from Azure DataLake Storage.| camel-azure-storage-datalake-starter
+azure-storage-queue| Stores and retrieves messages to/from Azure Storage Queue.| camel-azure-storage-queue-starter
+bean| Invoke methods of Java beans stored in Camel registry.| camel-bean-starter
+bean-validator| Validate the message body using the Java Bean Validation API.| camel-bean-validator-starter
+bonita| Communicate with a remote Bonita BPM process engine.| camel-bonita-starter
+box| Upload, download and manage files, folders, groups, collaborations, etc. on box.com.| camel-box-starter
+braintree| Process payments using Braintree Payments.| camel-braintree-starter
+browse| Inspect the messages received on endpoints supporting BrowsableEndpoint.| camel-browse-starter
+caffeine-cache| Perform caching operations using Caffeine Cache.| camel-caffeine-starter
+caffeine-loadcache| Perform caching operations using Caffeine Cache with an attached CacheLoader.| camel-caffeine-starter
+chatscript| Chat with a ChatScript Server.| camel-chatscript-starter
+chunk| Transform messages using Chunk templating engine.| camel-chunk-starter
+class| Invoke methods of Java beans specified by class name.| camel-bean-starter
+cmis| Read and write data from to/from a CMIS compliant content repositories.| camel-cmis-starter
+cm-sms| Send SMS messages via CM SMS Gateway.| camel-cm-sms-starter
+coap| Send and receive messages to/from COAP capable devices.| camel-coap-starter
+coaps| Send and receive messages to/from COAP capable devices.| camel-coap-starter
+coaps+tcp| Send and receive messages to/from COAP capable devices.| camel-coap-starter
+coap+tcp| Send and receive messages to/from COAP capable devices.| camel-coap-starter
+cometd| Offers publish/subscribe, peer-to-peer (via a server), and RPC style messaging using the CometD/Bayeux protocol.| camel-cometd-starter
+cometds| Offers publish/subscribe, peer-to-peer (via a server), and RPC style messaging using the CometD/Bayeux protocol.| camel-cometd-starter
+consul| Integrate with Consul service discovery and configuration store.| camel-consul-starter
+controlbus| Manage and monitor Camel routes.| camel-controlbus-starter
+corda| Perform operations against Corda blockchain platform using corda-rpc library.| camel-corda-starter
+couchbase| Query Couchbase Views with a poll strategy and/or perform various operations against Couchbase databases.| camel-couchbase-starter
+couchdb| Consume changesets for inserts, updates and deletes in a CouchDB database, as well as get, save, update and delete documents from a CouchDB database.| camel-couchdb-starter
+cql| Integrate with Cassandra 2.0 using the CQL3 API (not the Thrift API). Based on Cassandra Java Driver provided by DataStax.| camel-cassandraql-starter
+cron| A generic interface for triggering events at times specified through the Unix cron syntax.| camel-cron-starter
+crypto| Sign and verify exchanges using the Signature Service of the Java Cryptographic Extension (JCE).| camel-crypto-starter
+cxf| Expose SOAP WebServices using Apache CXF or connect to external WebServices using CXF WS client.| camel-cxf-soap-starter
+cxfrs| Expose JAX-RS REST services using Apache CXF or connect to external REST services using CXF REST client.| camel-cxf-rest-starter
+dataformat| Use a Camel Data Format as a regular Camel Component.| camel-dataformat-starter
+dataset| Provide data for load and soak testing of your Camel application.| camel-dataset-starter
+dataset-test| Extends the mock component by pulling messages from another endpoint on startup to set the expected message bodies.| camel-dataset-starter
+debezium-mongodb| Capture changes from a MongoDB database.| camel-debezium-mongodb-starter
+debezium-mysql| Capture changes from a MySQL database.| camel-debezium-mysql-starter
+debezium-postgres| Capture changes from a PostgresSQL database.| camel-debezium-postgres-starter
+debezium-sqlserver| Capture changes from an SQL Server database.| camel-debezium-sqlserver-starter
+digitalocean| Manage Droplets and resources within the DigitalOcean cloud.| camel-digitalocean-starter
+direct| Call another endpoint from the same Camel Context synchronously.| camel-direct-starter
+direct-vm| Call another endpoint from any Camel Context in the same JVM synchronously.| camel-directvm-starter
+disruptor| Provides asynchronous SEDA behavior using LMAX Disruptor.| camel-disruptor-starter
+disruptor-vm| Provides asynchronous SEDA behavior using LMAX Disruptor.| camel-disruptor-starter
+djl| Infer Deep Learning models from message exchanges data using Deep Java Library (DJL).| camel-djl-starter
+dns| Perform DNS queries using DNSJava.| camel-dns-starter
+docker| Manage Docker containers.| camel-docker-starter
+dozer| Map between Java beans using the Dozer mapping library.| camel-dozer-starter
+drill| Perform queries against an Apache Drill cluster.| camel-drill-starter
+dropbox| Upload, download and manage files, folders, groups, collaborations, etc on Dropbox.| camel-dropbox-starter
+dynamic-router| The Dynamic Router component routes exchanges to recipients, and the recipients (and their rules) may change at runtime.| camel-dynamic-router-starter
+ehcache| Perform caching operations using Ehcache.| camel-ehcache-starter
+elasticsearch-rest| Send requests to ElasticSearch via REST API| camel-elasticsearch-rest-starter
+exec| Execute commands on the underlying operating system.| camel-exec-starter
+facebook| Send requests to Facebook APIs supported by Facebook4J.| camel-facebook-starter
+fhir| Exchange information in the healthcare domain using the FHIR (Fast Healthcare Interoperability Resources) standard.| camel-fhir-starter
+file| Read and write files.| camel-file-starter
+file-watch| Get notified about file events in a directory using java.nio.file.WatchService.| camel-file-watch-starter
+flatpack| Parse fixed width and delimited files using the FlatPack library.| camel-flatpack-starter
+flink| Send DataSet jobs to an Apache Flink cluster.| camel-flink-starter
+fop| Render messages into PDF and other output formats supported by Apache FOP.| camel-fop-starter
+freemarker| Transform messages using FreeMarker templates.| camel-freemarker-starter
+ftp| Upload and download files to/from FTP servers.| camel-ftp-starter
+ftps| Upload and download files to/from FTP servers supporting the FTPS protocol.| camel-ftp-starter
+geocoder| Find geocodes (latitude and longitude) for a given address or the other way round.| camel-geocoder-starter
+github| Interact with the GitHub API.| camel-github-starter
+git| Perform operations on git repositories.| camel-git-starter
+google-bigquery| Google BigQuery data warehouse for analytics.| camel-google-bigquery-starter
+google-bigquery-sql| Access Google Cloud BigQuery service using SQL queries.| camel-google-bigquery-starter
+google-calendar| Perform various operations on a Google Calendar.| camel-google-calendar-starter
+google-calendar-stream| Poll for changes in a Google Calendar.| camel-google-calendar-starter
+google-drive| Manage files in Google Drive.| camel-google-drive-starter
+google-functions| Manage and invoke Google Cloud Functions| camel-google-functions-starter
+google-mail| Manage messages in Google Mail.| camel-google-mail-starter
+google-mail-stream| Poll for incoming messages in Google Mail.| camel-google-mail-starter
+google-pubsub| Send and receive messages to/from Google Cloud Platform PubSub Service.| camel-google-pubsub-starter
+google-secret-manager| Manage Google Secret Manager Secrets| camel-google-secret-manager-starter
+google-sheets| Manage spreadsheets in Google Sheets.| camel-google-sheets-starter
+google-sheets-stream| Poll for changes in Google Sheets.| camel-google-sheets-starter
+google-storage| Store and retrieve objects from Google Cloud Storage Service using the google-cloud-storage library.| camel-google-storage-starter
+gora| Access NoSQL databases using the Apache Gora framework.| camel-gora-starter
+grape| Fetch, load and manage additional jars dynamically after Camel Context was started.| camel-grape-starter
+graphql| Send GraphQL queries and mutations to external systems.| camel-graphql-starter
+grpc| Expose gRPC endpoints and access external gRPC endpoints.| camel-grpc-starter
+guava-eventbus| Send and receive messages to/from Guava EventBus.| camel-guava-eventbus-starter
+hashicorp-vault| Manage secrets in Hashicorp Vault Service| camel-hashicorp-vault-starter
+hazelcast-atomicvalue| Increment, decrement, set, etc. Hazelcast atomic number (a grid wide number).| camel-hazelcast-starter
+hazelcast-instance| Consume join/leave events of a cache instance in a Hazelcast cluster.| camel-hazelcast-starter
+hazelcast-list| Perform operations on Hazelcast distributed list.| camel-hazelcast-starter
+hazelcast-map| Perform operations on Hazelcast distributed map.| camel-hazelcast-starter
+hazelcast-multimap| Perform operations on Hazelcast distributed multimap.| camel-hazelcast-starter
+hazelcast-queue| Perform operations on Hazelcast distributed queue.| camel-hazelcast-starter
+hazelcast-replicatedmap| Perform operations on Hazelcast replicated map.| camel-hazelcast-starter
+hazelcast-ringbuffer| Perform operations on Hazelcast distributed ringbuffer.| camel-hazelcast-starter
+hazelcast-seda| Asynchronously send/receive Exchanges between Camel routes running on potentially distinct JVMs/hosts backed by Hazelcast BlockingQueue.| camel-hazelcast-starter
+hazelcast-set| Perform operations on Hazelcast distributed set.| camel-hazelcast-starter
+hazelcast-topic| Send and receive messages to/from Hazelcast distributed topic.| camel-hazelcast-starter
+hbase| Reading and write from/to an HBase store (Hadoop database).| camel-hbase-starter
+hdfs| Read and write from/to an HDFS filesystem using Hadoop 2.x.| camel-hdfs-starter
+http| Send requests to external HTTP servers using Apache HTTP Client 4.x.| camel-http-starter
+https| Send requests to external HTTP servers using Apache HTTP Client 4.x.| camel-http-starter
+hwcloud-dms| To integrate with a fully managed, high-performance message queuing service on Huawei Cloud| camel-huaweicloud-dms-starter
+hwcloud-frs| Face Recognition Service (FRS) is an intelligent service that uses computers to process, analyze, and understand facial images based on human facial features.| camel-huaweicloud-frs-starter
+hwcloud-functiongraph| To call serverless functions on Huawei Cloud| camel-huaweicloud-functiongraph-starter
+hwcloud-iam| To securely manage users on Huawei Cloud| camel-huaweicloud-iam-starter
+hwcloud-imagerecognition| To identify objects, scenes, and concepts in images on Huawei Cloud| camel-huaweicloud-imagerecognition-starter
+hwcloud-obs| To provide stable, secure, efficient, and easy-to-use cloud storage service on Huawei Cloud| camel-huaweicloud-obs-starter
+hwcloud-smn| To broadcast messages and connect cloud services through notifications on Huawei Cloud| camel-huaweicloud-smn-starter
+hyperledger-aries| Camel support for Hyperledger Aries| camel-hyperledger-aries-starter
+iec60870-client| IEC 60870 supervisory control and data acquisition (SCADA) client using NeoSCADA implementation.| camel-iec60870-starter
+iec60870-server| IEC 60870 supervisory control and data acquisition (SCADA) server using NeoSCADA implementation.| camel-iec60870-starter
+ignite-cache| Perform cache operations on an Ignite cache or consume changes from a continuous query.| camel-ignite-starter
+ignite-compute| Run compute operations on an Ignite cluster.| camel-ignite-starter
+ignite-events| Receive events from an Ignite cluster by creating a local event listener.| camel-ignite-starter
+ignite-idgen| Interact with Ignite Atomic Sequences and ID Generators .| camel-ignite-starter
+ignite-messaging| Send and receive messages from an Ignite topic.| camel-ignite-starter
+ignite-queue| Interact with Ignite Queue data structures.| camel-ignite-starter
+ignite-set| Interact with Ignite Set data structures.| camel-ignite-starter
+imap| Send and receive emails using imap, pop3 and smtp protocols.| camel-mail-starter
+imaps| Send and receive emails using imap, pop3 and smtp protocols.| camel-mail-starter
+infinispan-embedded| Read and write from/to Infinispan distributed key/value store and data grid.| camel-infinispan-embedded-starter
+infinispan| Read and write from/to Infinispan distributed key/value store and data grid.| camel-infinispan-starter
+influxdb| Interact with InfluxDB, a time series database.| camel-influxdb-starter
+iota| Manage financial transactions using IOTA distributed ledger.| camel-iota-starter
+ipfs| Access the Interplanetary File System (IPFS).| camel-ipfs-starter
+irc| Send and receive messages to/from and IRC chat.| camel-irc-starter
+ironmq| Send and receive messages to/from IronMQ an elastic and durable hosted message queue as a service.| camel-ironmq-starter
+jbpm| Interact with jBPM workflow engine over REST.| camel-jbpm-starter
+jcache| Perform caching operations against JSR107/JCache.| camel-jcache-starter
+jclouds| Interact with jclouds compute and blobstore service.| camel-jclouds-starter
+jcr| Read and write nodes to/from a JCR compliant content repository.| camel-jcr-starter
+jdbc| Access databases through SQL and JDBC.| camel-jdbc-starter
+jetty| Expose HTTP endpoints using Jetty 9.| camel-jetty-starter
+jgroups| Exchange messages with JGroups clusters.| camel-jgroups-starter
+jgroups-raft| Exchange messages with JGroups-raft clusters.| camel-jgroups-raft-starter
+jira| Interact with JIRA issue tracker.| camel-jira-starter
+jms| Sent and receive messages to/from a JMS Queue or Topic.| camel-jms-starter
+jmx| Receive JMX notifications.| camel-jmx-starter
+jolt| JSON to JSON transformation using JOLT.| camel-jolt-starter
+jooq| Store and retrieve Java objects from an SQL database using JOOQ.| camel-jooq-starter
+jpa| Store and retrieve Java objects from databases using Java Persistence API (JPA).| camel-jpa-starter
+jslt| Query or transform JSON payloads using an JSLT.| camel-jslt-starter
+jsonata| Transforms JSON payload using JSONata transformation.| camel-jsonata-starter
+json-patch| Transforms JSON using JSON patch (RFC 6902).| camel-json-patch-starter
+json-validator| Validate JSON payloads using NetworkNT JSON Schema.| camel-json-validator-starter
+jt400| Exchanges messages with an IBM i system using data queues, message queues, or program call. IBM i is the replacement for AS/400 and iSeries servers.| camel-jt400-starter
+kafka| Sent and receive messages to/from an Apache Kafka broker.| camel-kafka-starter
+kamelet| To call Kamelets| camel-kamelet-starter
+knative| Send and receive events from Knative.| camel-knative-starter
+kubernetes-config-maps| Perform operations on Kubernetes ConfigMaps and get notified on ConfigMaps changes.| camel-kubernetes-starter
+kubernetes-custom-resources| Perform operations on Kubernetes Custom Resources and get notified on Deployment changes.| camel-kubernetes-starter
+kubernetes-deployments| Perform operations on Kubernetes Deployments and get notified on Deployment changes.| camel-kubernetes-starter
+kubernetes-hpa| Perform operations on Kubernetes Horizontal Pod Autoscalers (HPA) and get notified on HPA changes.| camel-kubernetes-starter
+kubernetes-job| Perform operations on Kubernetes Jobs.| camel-kubernetes-starter
+kubernetes-namespaces| Perform operations on Kubernetes Namespaces and get notified on Namespace changes.| camel-kubernetes-starter
+kubernetes-nodes| Perform operations on Kubernetes Nodes and get notified on Node changes.| camel-kubernetes-starter
+kubernetes-persistent-volumes-claims| Perform operations on Kubernetes Persistent Volumes Claims and get notified on Persistent Volumes Claim changes.| camel-kubernetes-starter
+kubernetes-persistent-volumes| Perform operations on Kubernetes Persistent Volumes and get notified on Persistent Volume changes.| camel-kubernetes-starter
+kubernetes-pods| Perform operations on Kubernetes Pods and get notified on Pod changes.| camel-kubernetes-starter
+kubernetes-replication-controllers| Perform operations on Kubernetes Replication Controllers and get notified on Replication Controllers changes.| camel-kubernetes-starter
+kubernetes-resources-quota| Perform operations on Kubernetes Resources Quotas.| camel-kubernetes-starter
+kubernetes-secrets| Perform operations on Kubernetes Secrets.| camel-kubernetes-starter
+kubernetes-service-accounts| Perform operations on Kubernetes Service Accounts.| camel-kubernetes-starter
+kubernetes-services| Perform operations on Kubernetes Services and get notified on Service changes.| camel-kubernetes-starter
+kudu| Interact with Apache Kudu, a free and open source column-oriented data store of the Apache Hadoop ecosystem.| camel-kudu-starter
+language| Execute scripts in any of the languages supported by Camel.| camel-language-starter
+ldap| Perform searches on LDAP servers.| camel-ldap-starter
+ldif| Perform updates on an LDAP server from an LDIF body content.| camel-ldif-starter
+log| Log messages to the underlying logging mechanism.| camel-log-starter
+lpr| Send print jobs to printers.| camel-printer-starter
+lucene| Perform inserts or queries against Apache Lucene databases.| camel-lucene-starter
+lumberjack| Receive logs messages using the Lumberjack protocol.| camel-lumberjack-starter
+master| Have only a single consumer in a cluster consuming from a given endpoint; with automatic failover if the JVM dies.| camel-master-starter
+metrics| Collect various metrics directly from Camel routes using the DropWizard metrics library.| camel-metrics-starter
+micrometer| Collect various metrics directly from Camel routes using the Micrometer library.| camel-micrometer-starter
+milo-browse| Connect to OPC UA servers using the binary protocol for browsing the node tree.| camel-milo-starter
+milo-client| Connect to OPC UA servers using the binary protocol for acquiring telemetry data.| camel-milo-starter
+milo-server| Make telemetry data available as an OPC UA server.| camel-milo-starter
+mina| Socket level networking using TCP or UDP with Apache Mina 2.x.| camel-mina-starter
+minio| Store and retrieve objects from Minio Storage Service using Minio SDK.| camel-minio-starter
+mllp| Communicate with external systems using the MLLP protocol.| camel-mllp-starter
+mock| Test routes and mediation rules using mocks.| camel-mock-starter
+mongodb-gridfs| Interact with MongoDB GridFS.| camel-mongodb-gridfs-starter
+mongodb| Perform operations on MongoDB documents and collections.| camel-mongodb-starter
+mustache| Transform messages using a Mustache template.| camel-mustache-starter
+mvel| Transform messages using an MVEL template.| camel-mvel-starter
+mybatis-bean| Perform queries, inserts, updates or deletes in a relational database using MyBatis.| camel-mybatis-starter
+mybatis| Performs a query, poll, insert, update or delete in a relational database using MyBatis.| camel-mybatis-starter
+nats| Send and receive messages from NATS messaging system.| camel-nats-starter
+netty-http| Netty HTTP server and client using the Netty 4.x.| camel-netty-http-starter
+netty| Socket level networking using TCP or UDP with Netty 4.x.| camel-netty-starter
+nitrite| Access Nitrite databases.| camel-nitrite-starter
+oaipmh| Harvest metadata using OAI-PMH protocol| camel-oaipmh-starter
+olingo2| Communicate with OData 2.0 services using Apache Olingo.| camel-olingo2-starter
+olingo4| Communicate with OData 4.0 services using Apache Olingo OData API.| camel-olingo4-starter
+openshift-build-configs| Perform operations on OpenShift Build Configs.| camel-kubernetes-starter
+openshift-builds| Perform operations on OpenShift Builds.| camel-kubernetes-starter
+openshift-deploymentconfigs| Perform operations on Openshift Deployment Configs and get notified on Deployment Config changes.| camel-kubernetes-starter
+openstack-cinder| Access data in OpenStack Cinder block storage.| camel-openstack-starter
+openstack-glance| Manage VM images and metadata definitions in OpenStack Glance.| camel-openstack-starter
+openstack-keystone| Access OpenStack Keystone for API client authentication, service discovery and distributed multi-tenant authorization.| camel-openstack-starter
+openstack-neutron| Access OpenStack Neutron for network services.| camel-openstack-starter
+openstack-nova| Access OpenStack to manage compute resources.| camel-openstack-starter
+openstack-swift| Access OpenStack Swift object/blob store.| camel-openstack-starter
+optaplanner| Solve planning problems with OptaPlanner.| camel-optaplanner-starter
+paho| Communicate with MQTT message brokers using Eclipse Paho MQTT Client.| camel-paho-starter
+paho-mqtt5| Communicate with MQTT message brokers using Eclipse Paho MQTT v5 Client.| camel-paho-mqtt5-starter
+pdf| Create, modify or extract content from PDF documents.| camel-pdf-starter
+pgevent| Send and receive PostgreSQL events via LISTEN and NOTIFY commands.| camel-pgevent-starter
+pg-replication-slot| Poll for PostgreSQL Write-Ahead Log (WAL) records using Streaming Replication Slots.| camel-pg-replication-slot-starter
+platform-http| Expose HTTP endpoints using the HTTP server available in the current platform.| camel-platform-http-starter
+pop3| Send and receive emails using imap, pop3 and smtp protocols.| camel-mail-starter
+pop3s| Send and receive emails using imap, pop3 and smtp protocols.| camel-mail-starter
+pubnub| Send and receive messages to/from PubNub data stream network for connected devices.| camel-pubnub-starter
+pulsar| Send and receive messages from/to Apache Pulsar messaging system.| camel-pulsar-starter
+quartz| Schedule sending of messages using the Quartz 2.x scheduler.| camel-quartz-starter
+quickfix| Open a Financial Interchange (FIX) session using an embedded QuickFix/J engine.| camel-quickfix-starter
+rabbitmq| Send and receive messages from RabbitMQ instances.| camel-rabbitmq-starter
+reactive-streams| Exchange messages with reactive stream processing libraries compatible with the reactive streams standard.| camel-reactive-streams-starter
+ref| Route messages to an endpoint looked up dynamically by name in the Camel Registry.| camel-ref-starter
+rest-api| Expose OpenAPI Specification of the REST services defined using Camel REST DSL.| camel-rest-starter
+resteasy| Expose REST endpoints and access external REST servers.| camel-resteasy-starter
+rest| Expose REST services or call external REST services.| camel-rest-starter
+rest-openapi| Configure REST producers based on an OpenAPI specification document delegating to a component implementing the RestProducerFactory interface.| camel-rest-openapi-starter
+rest-swagger| Configure REST producers based on a Swagger (OpenAPI) specification document delegating to a component implementing the RestProducerFactory interface.| camel-rest-swagger-starter
+robotframework| Pass camel exchanges to acceptence test written in Robot DSL.| camel-robotframework-starter
+rss| Poll RSS feeds.| camel-rss-starter
+saga| Execute custom actions within a route using the Saga EIP.| camel-saga-starter
+salesforce| Communicate with Salesforce using Java DTOs.| camel-salesforce-starter
+sap-netweaver| Send requests to SAP NetWeaver Gateway using HTTP.| camel-sap-netweaver-starter
+scheduler| Generate messages in specified intervals using java.util.concurrent.ScheduledExecutorService.| camel-scheduler-starter
+schematron| Validate XML payload using the Schematron Library.| camel-schematron-starter
+scp| Copy files to/from remote hosts using the secure copy protocol (SCP).| camel-jsch-starter
+seda| Asynchronously call another endpoint from any Camel Context in the same JVM.| camel-seda-starter
+service| Register a Camel endpoint to a Service Registry (such as Consul, Etcd) and delegate to it.| camel-service-starter
+servicenow| Interact with ServiceNow via its REST API.| camel-servicenow-starter
+servlet| Serve HTTP requests by a Servlet.| camel-servlet-starter
+sftp| Upload and download files to/from SFTP servers.| camel-ftp-starter
+sjms2| Send and receive messages to/from a JMS Queue or Topic using plain JMS 2.x API.| camel-sjms2-starter
+sjms| Send and receive messages to/from a JMS Queue or Topic using plain JMS 1.x API.| camel-sjms-starter
+slack| Send and receive messages to/from Slack.| camel-slack-starter
+smpp| Send and receive SMS messages using a SMSC (Short Message Service Center).| camel-smpp-starter
+smpps| Send and receive SMS messages using a SMSC (Short Message Service Center).| camel-smpp-starter
+smtp| Send and receive emails using imap, pop3 and smtp protocols.| camel-mail-starter
+smtps| Send and receive emails using imap, pop3 and smtp protocols.| camel-mail-starter
+snmp| Receive traps and poll SNMP (Simple Network Management Protocol) capable devices.| camel-snmp-starter
+solrCloud| Perform operations against Apache Lucene Solr.| camel-solr-starter
+solr| Perform operations against Apache Lucene Solr.| camel-solr-starter
+solrs| Perform operations against Apache Lucene Solr.| camel-solr-starter
+spark| Send RDD or DataFrame jobs to Apache Spark clusters.| camel-spark-starter
+splunk-hec| The splunk component allows to publish events in Splunk using the HTTP Event Collector.| camel-splunk-hec-starter
+splunk| Publish or search for events in Splunk.| camel-splunk-starter
+spring-batch| Send messages to Spring Batch for further processing.| camel-spring-batch-starter
+spring-event| Listen for Spring Application Events.| camel-spring-starter
+spring-integration| Bridge Camel with Spring Integration.| camel-spring-integration-starter
+spring-jdbc| Access databases through SQL and JDBC with Spring Transaction support.| camel-spring-jdbc-starter
+spring-ldap| Perform searches in LDAP servers using filters as the message payload.| camel-spring-ldap-starter
+spring-rabbitmq| Send and receive messages from RabbitMQ using Spring RabbitMQ client.| camel-spring-rabbitmq-starter
+spring-redis| Send and receive messages from Redis.| camel-spring-redis-starter
+spring-ws| Access external web services as a client or expose your own web services.| camel-spring-ws-starter
+sql| Perform SQL queries using Spring JDBC.| camel-sql-starter
+sql-stored| Perform SQL queries as a JDBC Stored Procedures using Spring JDBC.| camel-sql-starter
+ssh| Execute commands on remote hosts using SSH.| camel-ssh-starter
+stax| Process XML payloads by a SAX ContentHandler.| camel-stax-starter
+stitch| Stitch is a cloud ETL service that integrates various data sources into a central data warehouse through various integrations.| camel-stitch-starter
+stomp| Send and rececive messages to/from STOMP (Simple Text Oriented Messaging Protocol) compliant message brokers.| camel-stomp-starter
+stream| Read from system-in and write to system-out and system-err streams.| camel-stream-starter
+string-template| Transform messages using StringTemplate engine.| camel-stringtemplate-starter
+stub| Stub out any physical endpoints while in development or testing.| camel-stub-starter
+telegram| Send and receive messages acting as a Telegram Bot Telegram Bot API.| camel-telegram-starter
+thrift| Call and expose remote procedures (RPC) with Apache Thrift data format and serialization mechanism.| camel-thrift-starter
+tika| Parse documents and extract metadata and text using Apache Tika.| camel-tika-starter
+timer| Generate messages in specified intervals using java.util.Timer.| camel-timer-starter
+twilio| Interact with Twilio REST APIs using Twilio Java SDK.| camel-twilio-starter
+twitter-directmessage| Send and receive Twitter direct messages.| camel-twitter-starter
+twitter-search| Access Twitter Search.| camel-twitter-starter
+twitter-timeline| Send tweets and receive tweets from user's timeline.| camel-twitter-starter
+undertow| Expose HTTP and WebSocket endpoints and access external HTTP/WebSocket servers.| camel-undertow-starter
+validator| Validate the payload using XML Schema and JAXP Validation.| camel-validator-starter
+velocity| Transform messages using a Velocity template.| camel-velocity-starter
+vertx-http| Send requests to external HTTP servers using Vert.x| camel-vertx-http-starter
+vertx| Send and receive messages to/from Vert.x Event Bus.| camel-vertx-starter
+vertx-kafka| Sent and receive messages to/from an Apache Kafka broker using vert.x Kafka client| camel-vertx-kafka-starter
+vertx-websocket| Expose WebSocket endpoints and connect to remote WebSocket servers using Vert.x| camel-vertx-websocket-starter
+vm| Call another endpoint in the same CamelContext asynchronously.| camel-vm-starter
+weather| Poll the weather information from Open Weather Map.| camel-weather-starter
+web3j| Interact with Ethereum nodes using web3j client API.| camel-web3j-starter
+webhook| Expose webhook endpoints to receive push notifications for other Camel components.| camel-webhook-starter
+websocket| Expose websocket endpoints using Jetty.| camel-websocket-starter
+websocket-jsr356| Expose websocket endpoints using JSR356.| camel-websocket-jsr356-starter
+weka| Perform machine learning tasks using Weka.| camel-weka-starter
+wordpress| Manage posts and users using Wordpress API.| camel-wordpress-starter
+workday| Detect and parse documents using Workday.| camel-workday-starter
+xchange| Access market data and trade on Bitcoin and Altcoin exchanges.| camel-xchange-starter
+xj| Transform JSON and XML message using a XSLT.| camel-xj-starter
+xmlsecurity-sign| Sign XML payloads using the XML signature specification.| camel-xmlsecurity-starter
+xmlsecurity-verify| Verify XML payloads using the XML signature specification.| camel-xmlsecurity-starter
+xmpp| Send and receive messages to/from an XMPP chat server.| camel-xmpp-starter
+xquery| Query and/or transform XML payloads using XQuery and Saxon.| camel-saxon-starter
+xslt| Transforms XML payload using an XSLT template.| camel-xslt-starter
+xslt-saxon| Transform XML payloads using an XSLT template using Saxon.| camel-xslt-saxon-starter
+zendesk| Manage Zendesk tickets, users, organizations, etc.| camel-zendesk-starter
+zookeeper| Manage ZooKeeper clusters.| camel-zookeeper-starter
+zookeeper-master| Have only a single consumer in a cluster consuming from a given endpoint; with automatic failover if the JVM dies.| camel-zookeeper-master-starter

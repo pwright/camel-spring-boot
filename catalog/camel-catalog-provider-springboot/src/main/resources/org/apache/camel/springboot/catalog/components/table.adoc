@@ -1,0 +1,5 @@
+[format="csv", separator="|", options="header"]
+|===
+Name|Description|Artifact
+include::test.csv[]
+|===
