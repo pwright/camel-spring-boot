@@ -11,3 +11,12 @@ cat test.json | jq -r '.[]|"\(.component.name):: \(.component.description)"' >te
 # Create a csv (with | as separator), viewable from table.adoc
 
 cat test.json | jq -r '.[]|"\(.component.name)| \(.component.description)| \(.component.artifactId)"' >test.csv
+
+
+# Create a flatter file of data
+
+ cat test.json |jq 'select(.[].component.name = "ahc")|.[].component' >test-filtered.json
+
+ # Query flat file for non deprecated async entries
+
+  cat test-filtered.json |jq 'select(.deprecated == false) | select(.async == true) |{name, description}'
